@@ -12,9 +12,19 @@ preferred build tool:
 - [Maven sample apps](https://github.com/liferay/liferay-blade-samples/tree/7.1/maven/apps/npm)
 -->
 
++$$$
+
+**Note:** When building the npm samples, an error can occur caused by the limit
+of open files allowed by your operating system. Consult your operating system
+vendor's documentation to learn how to configure the maximum number of open
+files for your OS.
+
+$$$
+
 The following npm samples are documented:
 
 - [Angular npm Portlet](angular-npm-portlet)
+- [Angular npm Deduplication Portlet](angular-npm-deduplication-portlet)
 - [Billboard.js npm Portlet](billboard-js-npm-portlet)
 - [jQuery npm Portlet](jquery-npm-portlet)
 - [Metal.js npm Portlet](metal-js-npm-portlet)
